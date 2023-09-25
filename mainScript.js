@@ -1,3 +1,5 @@
+//Dados intergalácticos
+
 const x = prompt("Olá, seja bem vindo ao Dados Intergalácticos!\n\nAgora, insira um id entre 1 e 82, para encontrar os dados da pessoa que deseja.")
 const y = prompt("Muito bem!\n\nAgora insira um id entre 1 e 60, para encontrar os dados do planeta que deseja.")
 const z = prompt("Estamos quase lá!\n\nAgora insira um id entre 1 e 36, para encontrar os dados da nave que deseja.")
