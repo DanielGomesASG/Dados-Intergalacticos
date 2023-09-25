@@ -4,7 +4,7 @@ const z = prompt("Estamos quase lá!\n\nAgora insira um id entre 1 e 36, para en
 alert("Analisando as informações interplanetárias da pessoa...\n\nAnalisando o mapa intergaláctico dos planetas...\n\nAvaliando as naves disponíveis no estoque...\n\nProcesso finalizado. Clique em OK e acesse os dados que conseguimos encontrar no console! :D")
 
 const url = "https://swapi.dev/api/"
-function tratar(xhr, texto) {
+function treat(xhr, texto) {
   if (xhr.readyState === 4 && xhr.status === 200) {
     const response = JSON.parse(xhr.responseText)
     console.log(`Estes são os dados de ${texto}:`, response, "\n\n...")
@@ -21,7 +21,7 @@ const loadPerson = (x) => {
   xhr.open("GET", `${url}people/${x}`)
   xhr.send(null)
   xhr.onreadystatechange = () => {
-    xhr.readyState === 4 ? tratar(xhr, "pessoa") : null
+    xhr.readyState === 4 ? treat(xhr, "pessoa") : null
   }
 }
 
@@ -31,7 +31,7 @@ const loadPlanet = (y) => {
   xhr.open("GET", `${url}planets/${y}`)
   xhr.send(null)
   xhr.onreadystatechange = () => {
-    xhr.readyState === 4 ? tratar(xhr, "planeta") : null
+    xhr.readyState === 4 ? treat(xhr, "planeta") : null
   }
 }
 
@@ -41,7 +41,7 @@ const loadShip = (z) => {
   xhr.open("GET", `${url}starships/${z}`)
   xhr.send(null)
   xhr.onreadystatechange = () => {
-    xhr.readyState === 4 ? tratar(xhr, "nave") : null
+    xhr.readyState === 4 ? treat(xhr, "nave") : null
   }
 }
 
