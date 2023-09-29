@@ -4,4 +4,4 @@ Dados Intergalácticos, é um projeto de integração com a API "swapi.dev", fei
 
 Os dados são requisitados, através da escolha do ID pelo usuário, e então apresentados ao mesmo. 
 
-O projeto encontra-se em fase de construção, onde a lógica principal foi finalizada. O front-end será atualizado ao decorrer das versões, assim como novas funcionalidades.
+O projeto encontra-se em fase de construção, onde a lógica inicial foi finalizada. O front-end será atualizado ao decorrer das versões, assim como novas funcionalidades.
