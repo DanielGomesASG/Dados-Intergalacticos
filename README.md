@@ -1,4 +1,4 @@
-#Dados Intergalácticos
+# Dados Intergalácticos
 
 Dados Intergalácticos, é um projeto de integração com a API "swapi.dev", feito em JavaScript,  através da ferramenta AJAX, utilizando a interface API Rest. 
 
